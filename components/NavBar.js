@@ -6,7 +6,6 @@ const NavBar = () => {
     return ( 
         <header className={styles.header}>
       <Link
-                 activeClass="active"
                  to="home"
                  spy={false}
                  smooth={true}
@@ -21,14 +20,14 @@ const NavBar = () => {
             </Link>
             <nav className={styles.nav}>
                 <ul className={styles.ul}>
-                 <li><Link
+                 <li className={styles.nav__item}><Link
                  activeClass="active"
                  to="about"
                  spy={true}
                  smooth={true}
                  offset={0}
                  duration={500}>About</Link></li>
-                    <li><Link
+                    <li className={styles.nav__item}><Link
                  activeClass="active"
                  to="projects"
                  spy={true}

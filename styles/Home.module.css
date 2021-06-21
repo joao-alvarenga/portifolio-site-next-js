@@ -37,6 +37,11 @@
   text-transform: uppercase;
 }
 
+.nav__item > .active {
+  border-bottom: 2px solid #ccc;
+  background-color: #ccc;
+}
+
 .logo__container {
   width: 5em;
   height: 100%;
@@ -131,7 +136,3 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
   }
-
-  .nav-item > .active {
-    border-bottom: 1px solid #333;
-}
