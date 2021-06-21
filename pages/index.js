@@ -2,6 +2,7 @@ import Head from 'next/head';
 import NavBar from '../components/NavBar';
 import HomePage from '../components/HomePage';
 import About from '../components/About';
+import Projects from '../components/Projects';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <main className={styles.main}>
       <HomePage />
       <About />
+      <Projects />
       </main>
 
       <footer className={styles.footer}>
