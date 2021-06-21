@@ -37,7 +37,7 @@ const Projects = () => {
                                     <span className={styles.icon__container__2}>
                                     <Image src="/htmlIcon.svg" width={30} height={30} />
                                     <Image src="/cssIcon.svg" width={30} height={30} />
-                                    <Image src="/jsIcon.svg" width={30} height={30} />
+                                    <Image src="/sassIcon.svg" width={30} height={30} />
                                     </span>
                                 </span>
                             </span>
