@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import HomePage from '../components/HomePage';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <HomePage />
       <About />
       <Projects />
+      <Footer />
       </main>
 
       <footer className={styles.footer}>

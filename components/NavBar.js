@@ -8,13 +8,12 @@ const NavBar = () => {
                 <div className={styles.logo}>
                     <h2>J<span></span>A</h2>
                 </div>
-                <span className={styles.hover__text}><h3>Hi I am João </h3></span>
+                <span className={styles.hover__text}><h3>Hi I am João.</h3></span>
             </div>
             <nav className={styles.nav}>
                 <ul className={styles.ul}>
                     <li><a>About</a></li>
                     <li><a>Projects</a></li>
-                    <li><a>Contact</a></li>
                 </ul>
             </nav>
         </header>
