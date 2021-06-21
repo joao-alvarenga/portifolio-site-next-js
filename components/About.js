@@ -5,7 +5,7 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 const About = () => {
     return ( 
         
-        <section className={styles.about}>
+        <section className={styles.about} id="about">
             <div className={styles.about__container}>
             <div className={styles.about__content}>
             <div className={styles.content__h2}><h2>

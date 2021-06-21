@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Projects = () => {
     return ( 
-        <section className={styles.projects}>
+        <section className={styles.projects} id="projects">
             <div className={styles.projects__container}>
                 <h2 className={styles.portifolio__title}>some of my projects</h2>
             <div className={styles.projects__inner__container}>

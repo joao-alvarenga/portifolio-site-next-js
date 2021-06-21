@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import styles from '../styles/Home.module.css';
 
 const NavBar = () => {
@@ -13,8 +14,20 @@ const NavBar = () => {
             </div>
             <nav className={styles.nav}>
                 <ul className={styles.ul}>
-                    <li><a>About</a></li>
-                    <li><a>Projects</a></li>
+                 <li><Link
+                 activeClass="active"
+                 to="about"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration={500}>About</Link></li>
+                    <li><Link
+                 activeClass="active"
+                 to="projects"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration={500}>Projects</Link></li>
                 </ul>
             </nav>
         </header>
