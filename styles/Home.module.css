@@ -12,10 +12,6 @@
   background-color: transparent;
 }
 
-.header.active {
-  background-color: #000;
-}
-
 .nav {
   margin-left: auto;
   margin-right: 2em;
@@ -33,32 +29,49 @@
 }
 
 .logo__container {
-  margin-left: 2em;
-  border: 2px solid #fff;
-  border-radius: 3px;
-  padding: .5em;
-  transform: rotate(132deg);
-  cursor: pointer;
+  width: 5em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 3em;
+  position: relative;
 }
 
+.logo__container:hover {
+   width: 25em;
+ }
+
 .logo {
-  width: 2.8em;
-  height: 2.8em;
   display: flex;
   align-items: center;
   justify-content: center;
   user-select: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 1.3em 1.4em 1.3em 1.4em;
 }
 
 .logo h2 {
-  transform: rotate(228deg);
   color: #fff;
-  font-size: 1.8em;
+  font-size: 2.5em;
+ 
 }
 
 .logo span {
   font-size: 1em;
 }
+
+.hover__text {
+  color: #fff;
+  font-size: 1.5em;
+  margin-left: 1em;
+  visibility: hidden;
+}
+
+.logo__container:hover .hover__text {
+  visibility: visible; 
+}
+
 
 .home {
   width: 100%;
