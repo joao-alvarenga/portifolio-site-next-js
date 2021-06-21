@@ -11,7 +11,14 @@ const Footer = () => {
                 <ul>
                     <li><GitHubIcon style={{ fontSize: 23}} /></li>
                     <li><LinkedInIcon style={{ fontSize: 23 }} /></li>
-                    <li><EmailOutlinedIcon style={{ fontSize: 23 }} /></li>
+                    <li><div className={styles.right__container}>
+	<button className={styles.right__container__button}>
+    <span className={styles.short__text}>
+    <EmailOutlinedIcon style={{ fontSize: 23 }} />
+          </span> 
+          <span className={styles.long__text} >jhafufauubgaufwubuywbu</span>
+      </button>
+</div><div className={styles.hover__content}></div></li>
                 </ul>
             </div>
         </section>
