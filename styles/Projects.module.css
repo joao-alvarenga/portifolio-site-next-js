@@ -39,7 +39,14 @@
     padding: .8em;
     float: left;
     text-align: center;
+    border: 2px solid #fff;
     background-color: #fff;
+    transition: 800ms;
+}
+
+.portifolio__content__left:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 .portifolio__content__right {
@@ -49,6 +56,12 @@
     text-align: center;
     color: #fff;
     background-color: #000;
+    border: 2px solid #000;
+    transition: 800ms;
+}
+
+.portifolio__content__right:hover {
+    border: 2px solid #fff;
 }
 
 .portifolio__content__left h3 {
