@@ -26,4 +26,5 @@
 
 .footer__ul li:hover  {
     color: #fff;
+    transition: 800ms;
 }

@@ -123,6 +123,7 @@
     justify-content: center;
     gap: 2em;
 }
+
 .portifolio__img:hover .glass__wrap {
     clip: auto;
 }
