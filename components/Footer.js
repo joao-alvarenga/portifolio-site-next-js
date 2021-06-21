@@ -8,7 +8,7 @@ const Footer = () => {
     return ( 
         <section className={styles.footer}>
             <div className={styles.footer__container}>
-                <ul>
+                <ul className={styles.footer__ul}>
                     <li><GitHubIcon style={{ fontSize: 23}} /></li>
                     <li><LinkedInIcon style={{ fontSize: 23 }} /></li>
                     <li><EmailOutlinedIcon style={{ fontSize: 23 }} /></li>

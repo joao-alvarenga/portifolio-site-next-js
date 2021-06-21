@@ -6,8 +6,8 @@ const Projects = () => {
     return ( 
         <section className={styles.projects}>
             <div className={styles.projects__container}>
+                <h2 className={styles.portifolio__title}>some of my projects</h2>
             <div className={styles.projects__inner__container}>
-            
                         <div className={styles.projects__img}>
                             <div className={styles.projects__content}>
                             <div  className={styles.portifolio__img}>

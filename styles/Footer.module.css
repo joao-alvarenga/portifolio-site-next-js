@@ -23,3 +23,7 @@
 .footer__container ul li {
     color: #ccc;
 }
+
+.footer__ul li:hover  {
+    color: #fff;
+}
