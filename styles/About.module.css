@@ -25,13 +25,13 @@
     height: 5em;
     width: 6em;
     margin: 0 auto;
-    margin-top: 20%;
+    margin-top: 22%;
     position: relative;
 }
 
 .about__inner__container > div h3 {
     font-size: 2em;
-    color: #555;
+    color: #808897;
 }
 
 .about__content {
@@ -69,4 +69,9 @@
 .content__p p {
     color: #fff;
     font-size: 2.3em;
+}
+
+.text__p {
+    color: #fff;
+    font-size: 3.3em;
 }
