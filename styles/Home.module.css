@@ -33,6 +33,7 @@
   font-family: fontMain;
   font-weight: 500;
   letter-spacing: 1px;
+  cursor: pointer;
   text-transform: uppercase;
 }
 
@@ -47,6 +48,7 @@
 
 .logo__container:hover {
    width: 20em;
+   cursor: pointer;
  }
 
 .logo {
@@ -129,3 +131,7 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
   }
+
+  .nav-item > .active {
+    border-bottom: 1px solid #333;
+}

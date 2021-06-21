@@ -5,13 +5,20 @@ import styles from '../styles/Home.module.css';
 const NavBar = () => {
     return ( 
         <header className={styles.header}>
-      
+      <Link
+                 activeClass="active"
+                 to="home"
+                 spy={false}
+                 smooth={true}
+                 offset={0}
+                 duration={500}>
             <div className={styles.logo__container}>
                 <div className={styles.logo}>
                     <h2>J<span></span>A</h2>
                 </div>
                 <span className={styles.hover__text}><h3>Hi I am João.</h3></span>
             </div>
+            </Link>
             <nav className={styles.nav}>
                 <ul className={styles.ul}>
                  <li><Link
@@ -19,14 +26,14 @@ const NavBar = () => {
                  to="about"
                  spy={true}
                  smooth={true}
-                 offset={-70}
+                 offset={0}
                  duration={500}>About</Link></li>
                     <li><Link
                  activeClass="active"
                  to="projects"
                  spy={true}
                  smooth={true}
-                 offset={-70}
+                 offset={0}
                  duration={500}>Projects</Link></li>
                 </ul>
             </nav>
