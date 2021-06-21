@@ -9,9 +9,9 @@ const Footer = () => {
         <section className={styles.footer}>
             <div className={styles.footer__container}>
                 <ul className={styles.footer__ul}>
-                    <li><GitHubIcon style={{ fontSize: 23}} /></li>
-                    <li><LinkedInIcon style={{ fontSize: 23 }} /></li>
-                    <li><EmailOutlinedIcon style={{ fontSize: 23 }} /></li>
+                    <li><a target="_blank" href="https://github.com/joao-alvarenga"><GitHubIcon style={{ fontSize: 23}} /></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-alvarenga/"><LinkedInIcon style={{ fontSize: 23 }} /></a></li>
+                    <li><a href="https://github.com/joao-alvarenga"><EmailOutlinedIcon style={{ fontSize: 23 }} /></a></li>
                 </ul>
             </div>
         </section>
