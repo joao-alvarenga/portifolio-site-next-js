@@ -1,15 +1,17 @@
 import React from 'react';
 import styles from '../styles/Footer.module.css';
-import { GitHubIcon, LinkedInIcon, EmailIcon } from '@material-ui/icons';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 
 const Footer = () => {
     return ( 
         <section className={styles.footer}>
             <div className={styles.footer__container}>
                 <ul>
-                    <li><GitHubIcon /></li>
-                    <li><LinkedInIcon /></li>
-                    <li><EmailIcon /></li>
+                    <li><GitHubIcon style={{ fontSize: 23}} /></li>
+                    <li><LinkedInIcon style={{ fontSize: 23 }} /></li>
+                    <li><EmailOutlinedIcon style={{ fontSize: 23 }} /></li>
                 </ul>
             </div>
         </section>
