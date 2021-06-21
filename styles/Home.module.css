@@ -37,9 +37,8 @@
   text-transform: uppercase;
 }
 
-.nav__item > .active {
+.nav__link .active {
   border-bottom: 2px solid #ccc;
-  background-color: #ccc;
 }
 
 .logo__container {

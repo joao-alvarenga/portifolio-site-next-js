@@ -22,6 +22,7 @@ const NavBar = () => {
                 <ul className={styles.ul}>
                  <li className={styles.nav__item}><Link
                  activeClass="active"
+                 className="nav__link"
                  to="about"
                  spy={true}
                  smooth={true}
