@@ -172,6 +172,9 @@
     font-size: 3em;
     margin-top: 4%;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
     display: flex;
     align-items: center;
     justify-content: center;
