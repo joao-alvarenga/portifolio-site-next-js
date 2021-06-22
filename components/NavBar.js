@@ -32,12 +32,14 @@ const NavBar = () => {
             <nav className={ isOpen === false ? styles.nav : styles.nav +' '+ styles.menuOpen } >
                 <ul className={styles.ul}>
                  <li className={styles.nav__item}><Link
+                  onClick={handleClick}
                  to="about"
                  spy={true}
                  smooth={true}
                  offset={0}
                  duration={500}>About</Link></li>
                     <li className={styles.nav__item}><Link
+                     onClick={handleClick}
                  to="projects"
                  spy={true}
                  smooth={true}
