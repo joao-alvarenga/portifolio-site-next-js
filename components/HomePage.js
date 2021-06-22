@@ -12,7 +12,7 @@ const HomePage = () => {
                     <br/>
                     <span className={styles.home__span__title}>end</span>
                     <br/>
-                    developer
+                    <span className={styles.last__element__h2}>developer</span>
                 </h2>
             </div>
             </div>

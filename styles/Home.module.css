@@ -246,3 +246,44 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
   }
+
+
+  /* MEDIA QUERIES */
+
+  @media (max-width: 1247px) {
+.home__content {
+    margin-left: 5%;
+}
+  }
+  
+  @media (max-width: 1076px) {
+    .home__content__title {
+        margin-left: 15%;
+    }
+      }
+      
+  @media (max-width: 864px) {
+    .home__content {
+      left: 35%;
+      right: 50%;
+    }
+
+.home__content__title {
+  font-size: 1.3em;
+}
+      }
+      
+  @media (max-width: 648px) {
+.home__content__title {
+  font-size: 1.3em;
+}
+
+.home__content__title h2 {
+  margin-left: -55%;
+}
+
+.last__element__h2 {
+  font-size: .9em;
+}
+    }
+  
