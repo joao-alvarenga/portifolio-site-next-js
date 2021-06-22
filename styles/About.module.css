@@ -74,3 +74,39 @@
     color: #fff;
     font-size: 3.3em;
 }
+
+
+  /* MEDIA QUERIES */
+
+  @media (max-width: 1069px) {
+.content__h2 {
+    width: 100%;
+}      
+  }
+
+  @media (max-width: 748px) {
+.content__h2 {
+    height: 50%;
+}
+.content__p {
+    width: 100%;
+}
+}
+
+
+
+@media (max-width: 543px) {
+    .content__h2 {
+        height: 68%;
+    }
+    .content__p {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        
+    }
+    
+.about__inner__container {
+    height: 50%;
+}
+    }
