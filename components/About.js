@@ -17,9 +17,7 @@ projets
             </div>
             <div className={styles.content__p}>
             <p>
-            Penser utilisateur et inventer les expériences digitales de demain, collaborer
-             différemment pour faire naître des idées malines et innovantes. Ré-enchanter le
-             quotidien d'un projet, concevoir pas à pas ensemble, comprendre l'usage en contexte...
+            
             </p>
             <br/><br/><br/>
             <p className={styles.text__p}>Bienvenue chez Le Singe.</p>
