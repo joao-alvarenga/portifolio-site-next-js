@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/About.module.css';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
