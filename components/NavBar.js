@@ -16,7 +16,8 @@ const NavBar = () => {
     
     return ( 
         <header className={styles.header}>
-      <Link
+      <Link 
+                 onClick={handleClick}
                  to="home"
                  spy={false}
                  smooth={true}
