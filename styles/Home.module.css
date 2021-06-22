@@ -287,3 +287,19 @@
 }
     }
   
+      
+    @media (max-width: 479px) {
+      .home__content__title {
+        font-size: 1.3em;
+      }
+      
+      .home__content__title h2 {
+        margin-left: -55%;
+        font-size: 4.8em;
+      }
+      
+      .last__element__h2 {
+        font-size: .9em;
+      }
+          }
+        
