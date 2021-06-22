@@ -7,6 +7,7 @@ const Projects = () => {
             <div className={styles.projects__container}>
                 <h2 className={styles.portifolio__title}>some of my projects</h2>
             <div className={styles.projects__inner__container}>
+            <div className={styles.portifolio__wrap}>
                         <div className={styles.projects__img}>
                             <div className={styles.projects__content}>
                             <div  className={styles.portifolio__img}>
@@ -26,7 +27,9 @@ const Projects = () => {
                                 <span className={styles.portifolio__content__right}><a target="_blank" href="https://github.com/joao-alvarenga/apple-clone"><h3>view code</h3></a></span>
                             </div>
                         </div>
+                        </div>
                    
+                        <div className={styles.portifolio__wrap__md}>
                         <div className={styles.projects__img__2}>
                             <div className={styles.projects__content__md}>
                             <div  className={styles.portifolio__img}>
@@ -45,6 +48,7 @@ const Projects = () => {
                                 <span className={styles.portifolio__content__left}><a target="_blank" href="https://chillhoop-music-player.web.app/"><h3>view live</h3></a></span>
                                 <span className={styles.portifolio__content__right}><a target="_blank" href="https://github.com/joao-alvarenga/music-player-app"><h3>view code</h3></a></span>
                             </div>
+                        </div>
                         </div>
             </div>
             </div>
