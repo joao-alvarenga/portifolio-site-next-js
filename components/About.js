@@ -26,8 +26,9 @@ projets
             <div  className={styles.about__inner__container}>
             <div><h3>
             About 
-            <br/>
-            Me<ArrowForwardIcon style={{ position: "absolute", bottom: 0, right: ".8em" }} />
+            <br className={styles.text__line} />
+            <span className={styles.text__span}>Me</span><span className={styles.text__line}><ArrowForwardIcon  style={{ marginLeft: ".5em", marginBottom: "-.1em" }} />
+            </span>
             </h3></div>
             </div>
             </div>

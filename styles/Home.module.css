@@ -171,12 +171,11 @@
     flex-direction: column;
     width: 100%;
     min-width: 700px;
-    height: 100vh;
+    height: 60vh;
     min-height: 100%;
     background-color: #191919;
-    transform: translateX(90em);
+    transform: translateY(-90em);
     top: 0;
-    bottom: 0;
     transition: 0.7s;
     z-index: 5;
   }
@@ -192,7 +191,7 @@
   }
 
   .nav.menuOpen {
-    transform: translateX(0);
+    transform: translateY(0);
     top: 0;
     clip: auto; 
   }

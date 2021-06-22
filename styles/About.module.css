@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-color: #00102e;
+    position: relative;
 }
 
 .about__container {
@@ -18,6 +19,7 @@
     display: flex;
     justify-content: center;
     float: left;
+    position: relative;
 }
 
 .about__inner__container > div {
@@ -25,7 +27,6 @@
     width: 6em;
     margin: 0 auto;
     margin-top: 22%;
-    position: relative;
 }
 
 .about__inner__container > div h3 {
@@ -48,7 +49,7 @@
 
 .content__h2 h2 {
     font-size: 5em;
-    color: #fff;
+    color: #fff;  
 }
 
 .content__p {
@@ -110,3 +111,40 @@
     height: 50%;
 }
     }
+
+@media (max-width: 383px) {
+    .about__inner__container {
+        width: 100%;
+        top: 0;
+    }
+    
+.about__content {
+    width: 100%;
+    height: 100%;
+    float: none;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.content__h2 {
+    width: 100%;
+    margin-top: 15%;
+    position: relative;
+}
+
+.text__span {
+    padding-left: .4em;
+}
+
+.about__inner__container > div {
+    height: 5em;
+    width: 10em;
+    margin: 0 auto;
+    justify-content: space-around;
+    top: 5%;
+    position: absolute;
+}
+.text__line {
+    display: none;
+}
+}
