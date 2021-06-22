@@ -47,15 +47,15 @@
 }
 
 .projects__img__2 {
-    margin-right: -1.5em;
+    margin-right: -2.8em;
     position: relative;
 }
 .projects__content {
-    width: 97.2%;
+    width: 98.4%;
 }
 
 .projects__content__md {
-    width: 93.5%;
+    width: 92.5%;
 }
 
 .portifolio__img {
@@ -109,7 +109,7 @@
 .glass__wrap {
     position: absolute;
     top: 0;
-    width: 97.2%;
+    width: 98.4%;
     clip: rect(0, 0, 0, 0);
     height: 87%;
     z-index: 5;
@@ -149,7 +149,7 @@
 .glass__wrap__2 {
     position: absolute;
     top: 0;
-    width: 93.5%;
+    width: 92.5%;
     clip: rect(0, 0, 0, 0);
     height: 86%;
     z-index: 5;
@@ -211,6 +211,10 @@
     min-width: 420px;
 }
 
+.projects__img__2 {
+    margin-right: -1.5em;
+}
+
 .glass__wrap {
     width: 100%;
 }
@@ -224,3 +228,37 @@
     position: relative;
 }
   }
+
+  @media (max-width: 460px) {
+    .projects__content {
+        width: 100%;
+        min-width: 320px;
+    }
+    
+    .projects__content__md {
+        width: 100%;
+        min-width: 320px;
+    }
+    
+.projects__img {
+    margin-left: .1em;
+}
+
+.projects__img__2 {
+    margin-left: -1em;
+    margin-top: -10em;
+}
+
+  }     
+  
+  @media (max-width: 460px) {
+    .projects__content {
+        width: 100%;
+        min-width: 300px;
+    }
+    
+    .projects__content__md {
+        width: 100%;
+        min-width: 300px;
+    }
+  }     
