@@ -103,7 +103,7 @@
 
 @media (max-width: 572px) {
     .content__h2 {
-        height: 68%;
+        height: 57%;
     }
     .content__p {
         width: 100%;
@@ -117,14 +117,14 @@
 }
     }
 
-@media (max-width: 407px) {
+@media (max-width: 523px) {
     .about__inner__container {
         width: 100%;
         top: 0;
     }
     
     .content__h2 {
-        height: 48%;
+        height: 38%;
     }
 
     .content__h2 h2 {
@@ -164,4 +164,10 @@
 .text__line {
     display: none;
 }
+}
+
+@media (max-width: 408px) {
+    .content__h2 {
+        height: 48%;
+    }
 }
