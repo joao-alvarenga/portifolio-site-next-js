@@ -48,7 +48,7 @@
 }
 
 .content__h2 h2 {
-    font-size: 5em;
+    font-size: 4em;
     color: #fff;  
 }
 
@@ -68,7 +68,7 @@
 
 .content__p p {
     color: #fff;
-    font-size: 2.3em;
+    font-size: 2.2em;
 }
 
 .text__p {
@@ -94,9 +94,14 @@
 }
 }
 
+@media (max-width: 667px) {
+.about__container {
+    height: 90em;
+}
+}
 
 
-@media (max-width: 543px) {
+@media (max-width: 572px) {
     .content__h2 {
         height: 68%;
     }
@@ -112,10 +117,22 @@
 }
     }
 
-@media (max-width: 383px) {
+@media (max-width: 407px) {
     .about__inner__container {
         width: 100%;
         top: 0;
+    }
+    
+    .content__h2 {
+        height: 48%;
+    }
+
+    .content__h2 h2 {
+        font-size: 3.5em;
+    }
+    
+    .content__p p {
+        font-size: 1.9em;
     }
     
 .about__content {

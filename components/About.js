@@ -8,19 +8,23 @@ const About = () => {
             <div className={styles.about__container}>
             <div className={styles.about__content}>
             <div className={styles.content__h2}><h2>
-            Faites vivre vos idées en
-plaçant l'utilisateur et
-l'agilité au cœur de vos
-projets
+            When first I started to code 
+            I quickly fell in love with the frot end part of it, 
+            because it joins the best parts of logic, design 
+            and creativity.
             </h2>
             <div className={styles.border__content}></div>
             </div>
             <div className={styles.content__p}>
             <p>
-            random text to see the design 
+            my journey as a programmer has just begun,
+            I am excited to see what is coming next, 
+            My goal in this journey is fairly simple; to be a student for as long as it takes to become a teacher. 
+            To absorb as much as I can from those my senior and to become the best developer I can be. 
+
             </p>
             <br/><br/><br/>
-            <p className={styles.text__p}>Bienvenue chez Le Singe.</p>
+            <p className={styles.text__p}>Let's build something amazing together.</p>
             </div>
             </div>
             <div  className={styles.about__inner__container}>
