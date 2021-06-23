@@ -244,7 +244,7 @@
   .home__content__title .home__span__title {
     color: transparent;
     font-size: 1.4em;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   }
 

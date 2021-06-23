@@ -17,7 +17,7 @@ projets
             </div>
             <div className={styles.content__p}>
             <p>
-            
+            random text to see the design 
             </p>
             <br/><br/><br/>
             <p className={styles.text__p}>Bienvenue chez Le Singe.</p>
