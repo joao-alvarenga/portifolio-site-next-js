@@ -21,10 +21,9 @@ const About = () => {
             I am excited to see what is coming next, 
             My goal in this journey is fairly simple; to be a student for as long as it takes to become a teacher. 
             To absorb as much as I can from those my senior and to become the best developer I can be. 
-
             </p>
             <br/><br/><br/>
-            <p className={styles.text__p}>Let's build something amazing together.</p>
+            <p className={styles.text__p}>Let&apos;s build something amazing together.</p>
             </div>
             </div>
             <div  className={styles.about__inner__container}>
