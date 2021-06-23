@@ -8,8 +8,8 @@ const About = () => {
             <div className={styles.about__container}>
             <div className={styles.about__content}>
             <div className={styles.content__h2}><h2>
-            When first I started to code 
-            I quickly fell in love with the frot end part of it, 
+            When I first started to code 
+            I quickly fell in love with the front end part of it, 
             because it joins the best parts of logic, design 
             and creativity.
             </h2>
