@@ -13,159 +13,6 @@
     position: relative;
 }
 
-.portifolio__wrap {
-    width: 50%;
-    height: 100%;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.portifolio__wrap__md {
-    width: 50%;
-    height: 100%;
-    float: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.projects__inner__container {
-    height: 90%;
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.projects__img {
-    margin-left: 1.5em;
-    position: relative;
-}
-
-.projects__img__2 {
-    margin-right: -2.8em;
-    position: relative;
-}
-.projects__content {
-    width: 98.4%;
-}
-
-.projects__content__md {
-    width: 92.5%;
-}
-
-.portifolio__img {
-    width: 100%;
-}
-
-.portifolio__img__md {
-    width: 100%;
-}
-
-.portifolio__content__left {
-    width: 50%;
-    padding: .8em;
-    float: left;
-    text-align: center;
-    border: 2px solid #fff;
-    background-color: #fff;
-    transition: 800ms;
-}
-
-.portifolio__content__left:hover {
-    background-color: #000;
-    color: #fff;
-}
-
-.portifolio__content__right {
-    width: 50%;
-    padding: .8em;
-    float: right;
-    text-align: center;
-    color: #fff;
-    background-color: #000;
-    border: 2px solid #000;
-    transition: 800ms;
-}
-
-.portifolio__content__right:hover {
-    border: 2px solid #fff;
-}
-
-.portifolio__content__left h3 {
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
-.portifolio__content__right h3 {
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
-.glass__wrap {
-    position: absolute;
-    top: 0;
-    width: 98.4%;
-    clip: rect(0, 0, 0, 0);
-    height: 87%;
-    z-index: 5;
-    border: 2px solid #fff;
-    background-color: #000;
-}
-
-.glass__inner__wrap {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    gap: 2em;
-}
-
-.glass__inner__wrap h3 {
-    font-size: 2em;
-    color: #ccc;
-}
-
-.portifolio__img:hover .glass__wrap {
-    clip: auto;
-}
-
-.glass__wrap__2 {
-    position: absolute;
-    top: 0;
-    width: 92.5%;
-    clip: rect(0, 0, 0, 0);
-    height: 86%;
-    z-index: 5;
-    border: 2px solid #fff;
-    background-color: #000;
-}
-
-.glass__inner__wrap__2 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    gap: 2em;
-}
-
-.glass__inner__wrap__2 h3 {
-    font-size: 2em;
-    color: #ccc;
-}
-
-.portifolio__img:hover .glass__wrap__2 {
-    clip: auto;
-}
-
 .portifolio__title {
     width: 100%;
     font-size: 3em;
@@ -177,6 +24,106 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.projects__inner__container {
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float__left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float__right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img__wrap {
+    width: 90%;
+    height: 65%;
+}
+
+
+.img__container {
+    width: 100%;
+    height: 84%;
+    position: relative;
+}
+
+.hover__text__container {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    background-color: #000;
+    clip: rect(0, 0, 0, 0);
+}
+
+.img__container:hover .hover__text__container {
+  clip: auto;
+}
+
+.projects__btn__left {
+    width: 50%;
+    padding: .8em;
+    float: left;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #fff;
+    transition: 800ms;
+}
+
+.projects__btn__right {
+    width: 50%;
+    padding: .8em;
+    float: right;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+    transition: 800ms;
+}
+
+.projects__btn__left h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.projects__btn__right h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.projects__btn__left:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.projects__btn__right:hover {
+    border: 2px solid #fff;
 }
 
   /* MEDIA QUERIES */
