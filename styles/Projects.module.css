@@ -124,22 +124,12 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    gap: 2em;
 }
 
 .glass__inner__wrap h3 {
     font-size: 2em;
     color: #ccc;
-}
-
-.icon__container {
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
 }
 
 .portifolio__img:hover .glass__wrap {
@@ -164,6 +154,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    gap: 2em;
 }
 
 .glass__inner__wrap__2 h3 {
@@ -171,16 +162,6 @@
     color: #ccc;
 }
 
-.icon__container__2 {
-    width: 100%;
-    height: 20%;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-}
 .portifolio__img:hover .glass__wrap__2 {
     clip: auto;
 }
