@@ -18,7 +18,7 @@ const Projects = () => {
                                     <Image src="/jsIcon.svg" alt="JavaScript logo" width={30} height={30} />
                                 </span>
                             </span>
-                            <img src="/apple-clone.png" width={'100%'} height={'100%'} objectFit='cover' objectPosition='center' />
+                            <Image src="/apple-clone.png" alt="portifolio one image" width={1000} height={530} objectFit='cover' objectPosition='center' />
                             </div>
                                 <span className={styles.portifolio__content__left}><a target="_blank" rel="noopener noreferrer" href="https://joao-alvarenga.github.io/apple-clone/"><h3>view live</h3></a></span>
                                 <span className={styles.portifolio__content__right}><a target="_blank" rel="noopener noreferrer" href="https://github.com/joao-alvarenga/apple-clone"><h3>view code</h3></a></span>
@@ -37,7 +37,7 @@ const Projects = () => {
                                     <Image src="/jsIcon.svg" alt="JavaScript logo" width={30} height={30} />
                                 </span>
                             </span>
-                            <img src="/chillhoop.png" width={'100%'} height={'100%'} objectFit='cover' objectPosition='center' />
+                            <Image src="/chillhoop.png" alt="portifolio two image" width={1000} height={530} objectFit='cover' objectPosition='center' />
                             </div>
                                 <span className={styles.portifolio__content__left}><a target="_blank" rel="noopener noreferrer" href="https://chillhoop-music-player.web.app/"><h3>view live</h3></a></span>
                                 <span className={styles.portifolio__content__right}><a target="_blank" rel="noopener noreferrer" href="https://github.com/joao-alvarenga/music-player-app"><h3>view code</h3></a></span>
