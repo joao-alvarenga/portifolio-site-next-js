@@ -35,7 +35,7 @@ const About = () => {
                         To absorb as much as I can from those my senior and to become the best developer I can be.
                         <br/>
                         <br/>
-                        Let's build something amazing together.
+                        Let&apos;s build something amazing together.
                     </p>
                 </div>
             </div>
