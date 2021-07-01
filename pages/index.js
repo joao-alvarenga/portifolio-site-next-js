@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import HomePage from '../components/HomePage';
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 
@@ -19,6 +20,7 @@ export default function Home() {
       <HomePage />
       <About />
       <Projects />
+      <Contact />
       <Footer />
       </main>
 

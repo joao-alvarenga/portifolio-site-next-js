@@ -1,0 +1,94 @@
+.contact {
+    height: auto;
+    width: 100%;
+    background-color: #111;
+  }
+
+  .contact__container {
+    height: 62.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .contact__h2 {
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__container form {
+    width: 50%;
+    height: 80%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .contact__container form label {
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: -1em;
+    margin-right: auto;
+    margin-left: 10%;
+  }
+
+  .input__name, .input__email {
+    width: 80%;
+    height: 3em;
+    outline: none;
+    border: none;
+    padding-left: .5em;
+  }
+  
+  .textarea  {
+    width: 80%;
+    height: 10em;
+    outline: none;
+    border: none;
+    padding-left: .5em;
+    padding-top: .5em;
+  }
+
+  .btn__contact {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 3%;
+    cursor: pointer;
+    padding: .5em;
+    width: 8em;
+    transition: 800ms;
+  }
+
+  .btn__contact h2 {
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .btn__contact:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  @media (max-width: 776px) {
+  .contact__container form {
+    width: 80%;
+  }
+  }

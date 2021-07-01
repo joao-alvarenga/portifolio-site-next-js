@@ -45,6 +45,14 @@ const NavBar = () => {
                  smooth={true}
                  offset={0}
                  duration={500}>Projects</Link></li>
+
+                  <li className={styles.nav__item}><Link
+                     onClick={handleClick}
+                 to="contact"
+                 spy={true}
+                 smooth={true}
+                 offset={0}
+                 duration={500}>Contact</Link></li>
                 </ul>
             </nav>
             <div className={styles.menu__icon}  >

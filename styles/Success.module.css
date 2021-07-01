@@ -1,0 +1,44 @@
+.succsess__page {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #191919;
+}
+
+.succsess__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.succsess__title {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.succsess__btn {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: .950em;
+    width: 14em;
+    transition: 800ms;
+}
+
+.succsess__btn h2 {
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  .succsess__btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
