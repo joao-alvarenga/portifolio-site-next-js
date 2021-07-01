@@ -8,7 +8,7 @@ const Success = () => {
                 <h1 className={styles.succsess__title}>
                     Message received. Thank you!
                 </h1>
-              <Link to="https://joaoalvarenga-me.vercel.app/"><button className={styles.succsess__btn}>
+              <Link passhref="https://joaoalvarenga-me.vercel.app/"><button className={styles.succsess__btn}>
                     <h2>back to home</h2>
                 </button></Link>
             </main>
