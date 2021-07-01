@@ -8,7 +8,7 @@ const Contact = () => {
                 get in touch
                 </h2>
             <form action="https://formsubmit.co/jvalvarenga@mailfence.com" method="POST">
-             <input type="hidden" name="_next" value="https://joaoalvarenga-me.vercel.app/pages/success"/>
+             <input type="hidden" name="_next" value="https://joaoalvarenga-me.vercel.app/success"/>
              <input type="text" name="_honey" style={{display: "none"}}/>
              <input type="hidden" name="_captcha" value="false"/>
             <label className={styles.label__name} htmlFor="name">Name</label>
