@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     background-color: #191919;
+    min-width: 320px;
 }
 
 .succsess__container {
@@ -41,4 +42,22 @@
   .succsess__btn:hover {
     background-color: #fff;
     color: #000;
+  }
+
+  @media (max-width: 720px) {
+    .succsess__title {
+        font-size: 3.8em;
+    }
+  }
+  
+  @media (max-width: 547px) {
+    .succsess__title {
+        font-size: 2.8em;
+    }
+  }
+  
+  @media (max-width: 412px) {
+    .succsess__title {
+        font-size: 2.2em;
+    }
   }
