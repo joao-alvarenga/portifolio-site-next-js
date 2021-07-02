@@ -13,7 +13,7 @@ const About = () => {
                 <h3>
                     About   
                     <br className={styles.line__break}/>
-                    <span className={styles.p__content}>me</span> <span className={styles.icon__container}><ArrowForwardIcon  style={{ marginLeft: ".3em", marginBottom: "-.1em" }} /></span>
+                    <span className={styles.p__content}>me</span> <span className={styles.icon__container}><ArrowForwardIcon  style={{ marginLeft: ".3em", marginBottom: "-.1em" }}/></span>
                 </h3>
             </div>
         </div>

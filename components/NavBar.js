@@ -26,7 +26,6 @@ const NavBar = () => {
                 <div className={styles.logo}>
                     <h2>J<span></span>A</h2>
                 </div>
-                <span className={styles.hover__text}><h3>Hi I am João.</h3></span>
             </div>
             </Link>
             <nav className={ isOpen === false ? styles.nav : styles.nav +' '+ styles.menuOpen } >
@@ -34,12 +33,14 @@ const NavBar = () => {
                  <li className={styles.nav__item}><Link
                   onClick={handleClick}
                  to="about"
+                 activeClass={styles.active}
                  spy={true}
                  smooth={true}
                  offset={0}
                  duration={500}>About</Link></li>
                     <li className={styles.nav__item}><Link
                      onClick={handleClick}
+                 activeClass={styles.active}
                  to="projects"
                  spy={true}
                  smooth={true}
@@ -48,6 +49,7 @@ const NavBar = () => {
 
                   <li className={styles.nav__item}><Link
                      onClick={handleClick}
+                 activeClass={styles.active}
                  to="contact"
                  spy={true}
                  smooth={true}
